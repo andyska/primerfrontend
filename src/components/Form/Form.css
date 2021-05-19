@@ -1,0 +1,14 @@
+/*
+form{
+    border: thin solid white;
+    background-color: greenyellow;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content:center;
+}
+*/
+
+button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
