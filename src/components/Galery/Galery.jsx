@@ -25,7 +25,7 @@ const MyGalery = ()=> {
                     )
                 } )}
             </div>
-        </RViewer>>
+        </RViewer>
         </div>
     )
 }
