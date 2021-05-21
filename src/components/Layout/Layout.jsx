@@ -11,7 +11,8 @@ import CardsPage from '../../CardsPage';
 import {Routes,Route} from 'react-router-dom';
 import Books from '../Books';
 import Users from '../Users'
-
+//import MyGalery from '../Galery/Galery'
+import MyCarousel from '../Carousel/Carousel';
 
 const { Header, Content, Footer, Sider } = Layout;
 
@@ -43,7 +44,11 @@ const MyLayout = () => {
             Users 
           </NavLink>
         </Menu.Item>
-        
+        <Menu.Item key="4" icon={<UserOutlined />}>
+          <NavLink to='/galery'>
+            Galery 
+          </NavLink>
+        </Menu.Item>
         </Menu>
     </Sider>
     <Layout className="site-layout">
@@ -54,6 +59,7 @@ const MyLayout = () => {
             <Route path="/" element= {<CardsPage/>} />
             <Route path="/books" element= {<Books/>} />
             <Route path="/users" element= {<Users/>} />
+            <Route path="/galery" element= {<MyCarousel/>} />
           </Routes>
         </div>
         </Content>

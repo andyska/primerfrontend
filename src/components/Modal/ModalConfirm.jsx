@@ -10,8 +10,8 @@ const ModalConfirm = ({isModalVisible ,setIsModalVisible ,  getAllBooks , bookde
     setIsModalVisible(false)
   };
 
-  const handleOnDelete = async (bookid) => {
-    console.log('ModalConfirm-bookdetails -3 ',bookid)
+  const handleOnDelete = async (hhh) => {
+    console.log('ModalConfirm-bookdetails -3 ',hhh)
     try{
       const response = await axios.delete(bookid)
       //validar que salio ok el delete para refrescar la tabla
